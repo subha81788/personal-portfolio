@@ -42,7 +42,7 @@ const About = () => {
           operate smoothly online. Get in touch today with the details of your
           project let's get started! Check out my resume below!
         </p>
-        <div className="about__cv-download">
+        <div className="about__cv-download-cta">
           <a href={CV} download className="btn primary" data-aos="fade-up">
             Download CV <HiDownload />
           </a>
