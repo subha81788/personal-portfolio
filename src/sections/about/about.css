@@ -16,6 +16,7 @@
     margin-top: 2.5rem;
     display: flex;
     justify-content: center;
+    transform: translateY(-0.5rem);
 }
 
 .about__cards {
