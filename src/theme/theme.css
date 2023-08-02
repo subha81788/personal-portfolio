@@ -83,13 +83,13 @@
 .theme__background-colors button {
     width: 7rem;
     height: 2.5rem;
-    background: white;
+    background: #111;
     border-radius: var(--border-radius-3);
     cursor: pointer;
 }
 
 .theme__background-colors .bg-2 {
-    background: #111;
+    background: white;
 }
 
 
