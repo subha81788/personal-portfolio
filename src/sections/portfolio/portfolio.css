@@ -36,8 +36,6 @@
     }
 }
 .portfolio__project {
-    width: 22rem;
-    height: 17rem;
     min-height: 15rem;
     max-height: 35rem;
     overflow: hidden;
@@ -54,8 +52,11 @@
     overflow: hidden;
 }
 
+.portfolio__project h4 {
+    margin-bottom: 0.7rem;
+}
+
 .portfolio__project ul {
-    /* list-style-position: inside; */
     list-style-type: circle;
     margin: 0.5rem 0 2rem;
 }
@@ -103,6 +104,6 @@
 
     .portfolio__projects {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 3rem;
     }
 }
