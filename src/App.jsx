@@ -11,6 +11,9 @@ import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
 import { useThemeContext } from './context/theme-context';
+import CV from "../src/assets/cv.pdf"
+
+const cvFileNameAfterDownload = "Subhashis-Nath-Resume-Fullstack-Java-8Yrs";
 
 const App = () => {
   const { themeState } = useThemeContext();
@@ -56,7 +59,7 @@ const App = () => {
       <Theme />
       <Navbar />
       <Header />
-      <About />
+      <About cv={CV} downloadAs={cvFileNameAfterDownload}/>
       <Services />
       <Portfolio />
       {/* <Testimonials/>

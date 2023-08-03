@@ -1,10 +1,9 @@
 import {HiDownload} from 'react-icons/hi'
 import Card from '../../components/Card'
 import data from './data'
-import CV from "../../assets/Subhashis-Nath-Resume-Fullstack-Java-8Yrs.pdf"
 import './about.css'
 
-const About = () => {
+const About = ({ cv, downloadAs }) => {
   return (
     <section id="about" data-aos="fade-in">
       <div className="container about__container">
@@ -21,29 +20,46 @@ const About = () => {
         <p>
           Building projects my clients love have always been my passion. Being
           in the Backend Development for over 8+ years within which the past 3
-          years in the Full-Stack Web Development and serving more than 10 happy
-          clients worldwide, I'm always motivated to do more!
+          years been into the Full-Stack Web Development and serving more than
+          10 happy global clients worldwide, I'm always motivated to do more!
         </p>
         <p>
-          Hi, my name is Subhashis Nath. I'm a Software Engineer from India, having
-          a Bachelors degree in Computer Science.
+          I have worked in full-time employment with LTIMindtree Limited,
+          Capgemini Technology Services India Limited, Harman Connected Services
+          and Alumnus Software Limited.
         </p>
         <p>
-          I'm a Customer Focused, Result-oriented IT professional with hands-on
-          Development experience with Spring Boot, React JS, Azure Devops,
-          Node JS with Typescript, Unit & Integration Testing, Deployment & CI/CD
-          pipeline Integration in diversified domains (viz IOT, Real Estate, Cash Payments,
-          Virtualization & Embedded) during exposure to multiple phases of Software
-          Engineering.
+          Few of their highly prestigious clients I worked for includes but are not
+          limited to are Ericsson India Global Services PVT. Ltd, Standard
+          Chartered Global Business Services, Dell EMC Corporation, VMware
+          Software India Pvt. Ltd., Intel Technology India Pvt. Ltd.
         </p>
         <p>
-          My top priority is to get your business online the right way, giving
-          you industry-standard design and all the functionality you need to
-          operate smoothly online. Get in touch today with the details of your
-          project let's get started! Check out my resume below!
+          Hi, my name is Subhashis Nath. I'm a Software Engineer from India,
+          having a Bachelors in Technology degree in Computer Science & Engineering.
         </p>
+        <p>
+          I'm a Customer Focused, Result-oriented IT professional having hands-on
+          Development experience using Spring Boot, React JS, Docker Container,
+          Azure Functions & Web Apps Deployment & CI/CD pipeline Integration,
+          Node JS with Typescript, Unit & Integration Testing in diversified
+          domains (viz IOT, Real Estate, Cash Payments, Virtualization &
+          Embedded) during exposure to multiple phases of Software Engineering.
+        </p>
+        <p>
+          My top priority is to get your business the right way, giving you
+          robust web applications having rich user interfaces built on top of 
+          microservice oriented architecture over the cloud with high availability,
+          performance, scalability, design flexibility and all the functionality you
+          need to operate your business smoothly.
+        </p>
+        <p>
+          Get in touch today with the details of your project and let's get
+          started!
+        </p>
+        <p>Please check out my resume below!</p>
         <div className="about__cv-download-cta">
-          <a href={CV} download className="btn primary" data-aos="fade-up">
+          <a href={cv} download={downloadAs} className="btn primary" data-aos="fade-up">
             Download CV <HiDownload />
           </a>
         </div>
