@@ -89,10 +89,14 @@ header {
     .header__cta {
         gap: 1rem;
     }
+
+    .header__cta .btn {
+        padding: 0.4rem 1rem;
+    }
 }
 
 /* MEDIA QUERIES (phones) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     .header__container {
         width: var(--container-width-sm);
     }

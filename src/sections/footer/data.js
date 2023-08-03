@@ -14,9 +14,17 @@ export const links = [
 export const socials = [
   {
     id: 1,
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/in/subhashis-nath-a6a2a624",
     icon: <AiFillLinkedin />,
   },
-  { id: 2, link: "https://github.com", icon: <AiFillGithub /> },
-  { id: 3, link: "https://twitter.com", icon: <AiOutlineTwitter /> },
+  { 
+    id: 2,
+    link: "https://github.com/subha81788",
+    icon: <AiFillGithub />,
+  },
+  {
+    id: 3,
+    link: "https://twitter.com/SubhashisN88",
+    icon: <AiOutlineTwitter />,
+  },
 ];
