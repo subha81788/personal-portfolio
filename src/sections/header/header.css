@@ -20,17 +20,10 @@ header {
     border-radius: 9rem 9rem 2rem 2rem;
     overflow: hidden;
     padding-bottom: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .header__container h3 {
-    width: 35rem;
-    text-align: center;
-    margin: 0.6rem 0 2rem;
-}
-
-.header__container p {
-    width: 35rem;
     text-align: center;
     margin: 0.6rem 0 2rem;
 }
@@ -67,7 +60,7 @@ header {
 }
 
 
-/* MEDIA QUERIES (tablets) */
+/* MEDIA QUERIES (desktops) */
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
@@ -78,6 +71,10 @@ header {
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
+    .header__container {
+        width: var(--container-width-md);
+    }
+
     .header__profile {
         width: 14rem;
         height: 17rem;
@@ -85,12 +82,19 @@ header {
         max-height: 35vh;
     }
 
-    .header__container p {
+    /* .header__container p {
         width: 100%;
-    }
+    } */
 
     .header__cta {
         gap: 1rem;
+    }
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 480px) {
+    .header__container {
+        width: var(--container-width-sm);
     }
 
     .header__socials {
