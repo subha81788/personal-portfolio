@@ -57,7 +57,7 @@
 }
 
 .portfolio__project ul {
-    list-style-type: circle;
+    list-style-type: square !important;
     margin: 0.5rem 0 2rem;
 }
 
