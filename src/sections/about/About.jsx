@@ -30,9 +30,10 @@ const About = ({ cv, downloadAs }) => {
         </p>
         <p>
           Few of their highly prestigious clients I worked for includes but are not
-          limited to are Ericsson India Global Services PVT. Ltd, Standard
-          Chartered Global Business Services, Dell EMC Corporation, VMware
-          Software India Pvt. Ltd., Intel Technology India Pvt. Ltd.
+          limited to are A Swedish multinational Telecommunication & Networking company,
+          one of the top British multinational bank, an American multinational Corporation
+          specialized selling Data storage devices & Cloud Computing, an American Virtualization
+          Technology company and an American Microprocessor Development & Semiconductor company.
         </p>
         <p>
           Hi, my name is Subhashis Nath. I'm a Software Engineer from India,
