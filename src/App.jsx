@@ -11,7 +11,8 @@ import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
 import { useThemeContext } from './context/theme-context';
-import CV from "../src/assets/cv.pdf"
+//import CV from "../src/assets/cv.pdf"
+import CV from "../src/assets/Subhashis Nath_Nagarro_Resume.docx"
 
 const cvFileNameAfterDownload = "Subhashis-Nath-Resume-Fullstack-Java-8Yrs";
 

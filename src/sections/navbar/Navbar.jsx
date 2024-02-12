@@ -1,6 +1,7 @@
 import {IoIosColorPalette} from 'react-icons/io'
 import { useModalContext } from '../../context/modal-context'
-import Logo from '../../assets/logo.jpg'
+//import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/M-190408.jpg'
 import data from './data'
 import './navbar.css'
 

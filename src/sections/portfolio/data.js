@@ -10,6 +10,15 @@ import Image9 from '../../assets/project9.jpg'
 
 const data = [
   {
+    id: 0,
+    category: "backend",
+    image: Image6,
+    title: "Knowledge Management",
+    desc: ["POC involved sending notification to Nagarro subscribers when a HR creates or updates a document in Onedrive or updates the content in a MS Sharepoint page.", "Bootstrap a new python Django app and integrated Azure Event Hub with MS Onedrive using MS Graph apis. Thus the subscriber could receive change notification event payloads when a new file is uploaded to Onedrive or file content is updated in an existing file in Onedrive.", "The payload of above events contains subscription id of the file change event subscribers. Using that subscription id we implemented OAuth2 On-Behalf-Of or delegated authorization token flow as follows.", "Write logic to fetch refresh token on behalf of the subscriber first. On successful retrieval we could fetch access token further which is used to interact with MS Graph Apis on behalf of the subscriber till the access token gets expired. Then we had to renew the access token using the refresh token retrieved earlier. Used python MSAL lib.", "Download files for which change notification received using relevant MS graph api invocation.", "Implemented a parser module to parse these pdf/docx/doc using python libraries.", "Implemented rest apis to CRUD parsed paragraph texts into Azure CosmosDB for MongoDB api.", "Secured the sensitive credentials in Azure Key vault. Kept other config or setup parameters in dotenv files."],
+    demo: "",
+    github: "",
+  },
+  {
     id: 1,
     category: "fullstack",
     image: Image1,

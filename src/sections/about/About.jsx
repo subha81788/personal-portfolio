@@ -24,7 +24,8 @@ const About = ({ cv, downloadAs }) => {
           10 happy global clients worldwide, I'm always motivated to do more!
         </p>
         <p>
-          I have worked in full-time employment with LTIMindtree Limited,
+          I am currently working in full-time employment with Nagarro Enterprise Services Pvt Ltd. 
+          In the past I worked in full-time employment with LTIMindtree Limited,
           Capgemini Technology Services India Limited, Harman Connected Services
           and Alumnus Software Limited.
         </p>
